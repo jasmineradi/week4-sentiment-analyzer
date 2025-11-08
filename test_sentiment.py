@@ -36,7 +36,10 @@ def test_analyzer():
         # Advanced analysis   
         advanced = analyzer.analyze_sentiment_advanced(review) 
         print(f"Advanced Method: {advanced['sentiment']} " 
-              f"(Polarity: {advanced['polarity']:.3f})") 
+              f"(Polarity: {advanced['polarity']:.3f})")
+        
+    # Print how many reviews were analyzed
+    print("\nTotal reviews analyzed:", len(test_cases)) 
          
     # Visualize results 
     print("\n\n📊 Creating visualization...") 
