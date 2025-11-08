@@ -8,7 +8,11 @@ nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True) 
 from nltk.corpus import stopwords 
 import matplotlib.pyplot as plt 
- 
+
+# This class analyzes text to figure out if it's positive, negative, or neutral.
+# It uses both simple word counting and an advanced method with TextBlob.
+# TextBlob helps identify the emotional tone (polarity) of each review.
+
 class SentimentAnalyzer: 
     """ 
     Analyzes sentiment in text reviews 
