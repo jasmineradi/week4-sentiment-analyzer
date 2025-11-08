@@ -44,3 +44,6 @@ if __name__ == "__main__":
     df = create_review_dataset()
     df.to_csv("data/training_reviews.csv", index=False)
     print(f"Created {len(df)} sample reviews at data/training_reviews.csv")
+
+from datetime import datetime
+print("File generated on:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
