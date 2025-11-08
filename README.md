@@ -59,7 +59,7 @@ One challenge I faced was understanding how all the different files connected to
 3. Some HR departments will analyze surveys to determine how employees are performing in their positions.
 
 ## What I Learned
-I learned about Natural Language Processing (NLP), which is how computers can understand and analyze human language. I saw how text can be cleaned and broken down into smaller pieces (like words) before being analyzed for meaning. I also learned that NLP tools, such as TextBlob, can detect the tone of a message and decide whether it sounds positive, negative, or neutral. This helped me understand how programs can process language data and use it in real-world applications like chatbots, product reviews, and social media analysis.
+I learned about Natural Language Processing, which is how computers can understand and analyze human language. I saw how text can be broken down into smaller pieces before being analyzed for meaning. I also learned that NLP tools, such as TextBlob, can detect the tone of a message and decide whether it sounds positive, negative, or neutral. This helped me understand how programs can process language data and use it in real-world applications like chatbots, product reviews, and social media analysis.
 
 ## Example Input and Output
 **Input:**  
